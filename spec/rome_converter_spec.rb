@@ -1,6 +1,6 @@
-require_relative '../lib/roman_converter.rb'
+require_relative '../lib/rome_converter.rb'
 
-RSpec.describe RomanConverterSpec do
+RSpec.describe RomeConverterSpec do
 
 	context "convererts roman to decimal and decimal to roman" do
 
@@ -14,18 +14,18 @@ RSpec.describe RomanConverterSpec do
 			"CDLII"	  => 453,
 			"MCMXVIII"  => 1918,
 			"MMCDXCVI"  => 2496,
-			"MMMDDDCCCLLLXXXVVVIII"   => 4498
+			"MMMDDDCCCLLLXXXVVVIII"   => 4998
 		}
 
 		it "converts roman to decimal" do
-			number = RomanConverter.new
+			number = RomeConverter.new
 			conversion_table.each do |roman, decimal|
 				expect(number.to_dec(roman)).to eq(decimal)
 			end
 		end
 
 		it "converts decimal to roman" do
-			number = RomanConverter.new
+			number = RomeConverter.new
 			conversion_table.each do |roman, decimal|
 				expect(number.to_rome(decimal)).to eq(roman)
 			end
