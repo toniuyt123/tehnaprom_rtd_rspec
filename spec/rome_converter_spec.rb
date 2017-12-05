@@ -14,7 +14,8 @@ RSpec.describe RomeConverterSpec do
 			"CDLII"	  => 453,
 			"MCMXVIII"  => 1918,
 			"MMCDXCVI"  => 2496,
-			"MMMDDDCCCLLLXXXVVVIII"   => 4998
+			"MMMDCCXCI"  =>3791,
+			"MMMMCMXCVIII"   => 4998 #a bi trqbvalo da ne e taka zashtoto ima 4ri M-ta ama vsichki mn me hate-naha che e bilo taka i go smenih
 		}
 
 		it "converts roman to decimal" do
