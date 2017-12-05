@@ -1,0 +1,1412 @@
+Started GET "/" for 127.0.0.1 at 2017-10-09 16:50:00 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 333ms (Views: 19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-09 19:47:36 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 656ms (Views: 16.8ms)
+
+
+Started GET "/sum" for 127.0.0.1 at 2017-10-09 19:47:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/sum"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-09 19:54:35 +0300
+  
+ActionController::RoutingError (uninitialized constant SumsController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-09 19:55:03 +0300
+  
+ActionController::RoutingError (uninitialized constant SumsController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-09 19:55:40 +0300
+  
+ActionController::RoutingError (uninitialized constant SumsController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-10 09:31:03 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 340ms (Views: 17.5ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:31:06 +0300
+  
+LoadError (Unable to autoload constant SumsController, expected /home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/sums_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:31:11 +0300
+  
+SyntaxError (/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/intervals_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+		render: lenght
+		       ^):
+  
+app/controllers/intervals_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:31:32 +0300
+  
+SyntaxError (/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/intervals_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+		render: : lenght
+		       ^):
+  
+app/controllers/intervals_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:31:48 +0300
+  
+AbstractController::ActionNotFound (The action 'form' could not be found for IntervalsController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:32:44 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:33:56 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals/calc" for 127.0.0.1 at 2017-10-10 09:34:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals/calc"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:34:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:34:17 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/intervals" for 127.0.0.1 at 2017-10-10 09:37:17 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/intervals"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:47:43 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/sums"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:48:13 +0300
+  
+LoadError (Unable to autoload constant SumsController, expected /home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/sums_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:49:19 +0300
+  
+SyntaxError (/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/sums_controller.rb:1: syntax error, unexpected '<', expecting ';' or '\n'
+class def SumController < ApplicationController
+                         ^
+/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/sums_controller.rb:4: dynamic constant assignment
+	Col = 0
+	     ^
+/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/sums_controller.rb:13: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/sums_controller.rb:1: syntax error, unexpected '<', expecting ';' or '\n'
+app/controllers/sums_controller.rb:4: dynamic constant assignment
+app/controllers/sums_controller.rb:13: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:49:29 +0300
+  
+LoadError (Unable to autoload constant SumsController, expected /home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/sums_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:51:16 +0300
+Processing by SumsController#form as HTML
+  Rendering sums/form.html.erb within layouts/application
+  Rendered sums/form.html.erb within layouts/application (225.8ms)
+Completed 500 Internal Server Error in 510ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `text_files_path' for #<#<Class:0x0000000003bcc070>:0x00007f76806da3a0>
+Did you mean?  txtfile_path):
+    4:         <%= submit_tag("Upload") %>
+    5:             <% end %>
+    6: 
+    7: <%= link_to 'Back', text_files_path %>
+  
+app/views/sums/form.html.erb:7:in `_app_views_sums_form_html_erb___3105660431791653996_30719040'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:53:25 +0300
+Processing by SumsController#form as HTML
+  Rendering sums/form.html.erb within layouts/application
+  Rendered sums/form.html.erb within layouts/application (286.0ms)
+Completed 500 Internal Server Error in 291ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `txtfiles_path' for #<#<Class:0x00007f76811e0290>:0x00007f768117e630>
+Did you mean?  txtfile_path):
+    4:         <%= submit_tag("Upload") %>
+    5:             <% end %>
+    6: 
+    7: <%= link_to 'Back', txtfiles_path %>
+  
+app/views/sums/form.html.erb:7:in `_app_views_sums_form_html_erb___3105660431791653996_70073474549140'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:53:44 +0300
+Processing by SumsController#form as HTML
+  Rendering sums/form.html.erb within layouts/application
+  Rendered sums/form.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 18ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"txtfile"}, missing required keys: [:id]):
+    4:         <%= submit_tag("Upload") %>
+    5:             <% end %>
+    6: 
+    7: <%= link_to 'Back', txtfile_path %>
+  
+app/views/sums/form.html.erb:7:in `_app_views_sums_form_html_erb___3105660431791653996_70073471150700'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:54:19 +0300
+Processing by SumsController#form as HTML
+  Rendering sums/form.html.erb within layouts/application
+  Rendered sums/form.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2374ms (Views: 2373.0ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 09:54:49 +0300
+Processing by SumsController#calc as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v46yL1ixwch16qBHRm3qf7IMPPcNlKfBcpohf7bQB7JfBFLkSncLw3CPp6KZdpqf5KmuW27aSn8AQNpe/zPJKg==", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007f7684e8c680 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5105-7agx6l.csv>, @original_filename="test.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 17ms
+
+
+  
+NameError (uninitialized constant ApplicationController::TextFile):
+  
+app/controllers/application_controller.rb:4:in `CSVread'
+app/controllers/sums_controller.rb:6:in `calc'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 09:59:07 +0300
+Processing by SumsController#form as HTML
+  Rendering sums/form.html.erb within layouts/application
+  Rendered sums/form.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 3616ms (Views: 2318.2ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 09:59:23 +0300
+Processing by SumsController#calc as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gWR+v4I1+5PlV6dB4zgmBw8Fcn+0A0JggL0EU3ZY+yph7p50kPMxmOAyoKQ8I1bnWaDg09dNr97yZ/9yP7s1sg==", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007f2470076c28 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-5388-1npo2gf.csv>, @original_filename="test.csv", @content_type="text/csv", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: text/csv\r\n">, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 22ms
+
+
+  
+NameError (uninitialized constant ApplicationController::TextFile):
+  
+app/controllers/application_controller.rb:4:in `CSVread'
+app/controllers/sums_controller.rb:6:in `calc'
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 17:02:19 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/sums"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-10 17:02:26 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/antonio/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.1ms)
+Completed 200 OK in 400ms (Views: 2.2ms)
+
+
+Started GET "/sums" for 127.0.0.1 at 2017-10-10 17:02:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/sums"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 17:23:16 +0300
+Processing by SumsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000048e1f30 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1ouoarh.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 275ms
+
+
+  
+NameError (undefined local variable or method `text_file' for #<SumsController:0x0000000004897bb0>):
+  
+app/controllers/application_controller.rb:6:in `CSVread'
+app/controllers/sums_controller.rb:6:in `calc'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 17:27:13 +0300
+Processing by SumsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004a34bd0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-xuwns3.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 12.7ms)
+
+
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 17:30:22 +0300
+Processing by SumsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000339dac0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-13w5lx.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 14ms (Views: 10.0ms)
+
+
+Started POST "/filter" for 127.0.0.1 at 2017-10-10 17:30:27 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/filter"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 17:30:31 +0300
+Processing by FiltersController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8831a10 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1i2fx9o.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 13ms
+
+
+  
+NameError (uninitialized constant FiltersController::ColY):
+  
+app/controllers/filters_controller.rb:10:in `block in calc'
+app/controllers/filters_controller.rb:9:in `each'
+app/controllers/filters_controller.rb:9:in `calc'
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 17:33:12 +0300
+Processing by FiltersController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e86ac1b8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1giihmz.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 9ms
+
+
+  
+NameError (uninitialized constant FiltersController::ColY):
+  
+app/controllers/filters_controller.rb:10:in `block in calc'
+app/controllers/filters_controller.rb:9:in `each'
+app/controllers/filters_controller.rb:9:in `calc'
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 17:33:15 +0300
+Processing by FiltersController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e9b45fc0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-p8n91m.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NameError (uninitialized constant FiltersController::ColY):
+  
+app/controllers/filters_controller.rb:10:in `block in calc'
+app/controllers/filters_controller.rb:9:in `each'
+app/controllers/filters_controller.rb:9:in `calc'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 17:33:47 +0300
+Processing by SumsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000049d3768 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-vsxi0b.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 9.9ms)
+
+
+Started POST "/filters" for 127.0.0.1 at 2017-10-10 17:34:17 +0300
+Processing by FiltersController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004676020 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1x82s5o.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 0.9ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:36:04 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000003ac4ee8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1fu2brq.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 9ms
+
+
+  
+NoMethodError (private method `readlines' called for #<Array:0x0000000003a55408>):
+  
+app/controllers/intervals_controller.rb:7:in `calc'
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:36:37 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8461480 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-19az4wc.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 0.9ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:36:50 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000483ebf0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-q1vy87.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `lines' for #<Array:0x000000000482d3c8>):
+  
+app/controllers/intervals_controller.rb:7:in `calc'
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:36:58 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e87a3530 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-cqealc.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 8ms
+
+
+  
+NoMethodError (undefined method `lines' for #<Array:0x00007f71e8791678>):
+  
+app/controllers/intervals_controller.rb:7:in `calc'
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:37:09 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e982d658 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-nukxim.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 8.2ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:37:38 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e94d1860 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-348os6.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:44:41 +0300
+  
+SyntaxError (/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/intervals_controller.rb:19: syntax error, unexpected keyword_end
+			end
+			   ^
+/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/intervals_controller.rb:24: syntax error, unexpected keyword_end
+		end 
+		   ^
+/home/antonio/Desktop/TUES/TP/tehnaprom/app/controllers/intervals_controller.rb:27: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/intervals_controller.rb:19: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:24: syntax error, unexpected keyword_end
+app/controllers/intervals_controller.rb:27: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:45:24 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8c8a9e0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-dbjxtw.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:45:46 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e93cda40 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-5x957w.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.9ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:46:00 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8994d58 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-p45bvc.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:46:34 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8716310 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-9hh3xa.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 113ms
+
+
+  
+NameError (undefined local variable or method `cout' for #<IntervalsController:0x00007f71e8718368>
+Did you mean?  count):
+  
+app/controllers/intervals_controller.rb:19:in `block in calc'
+app/controllers/intervals_controller.rb:14:in `each'
+app/controllers/intervals_controller.rb:14:in `calc'
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:46:56 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8ceea80 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-9hql8r.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:47:41 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e85a6c78 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-14kszt1.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started POST "/sum" for 127.0.0.1 at 2017-10-10 17:49:40 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/sum"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/sums" for 127.0.0.1 at 2017-10-10 17:49:41 +0300
+Processing by SumsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000459a778 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1lpwhqd.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 16ms (Views: 7.4ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:49:51 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000046db290 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-3pvz6f.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 22ms (Views: 9.2ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:50:01 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e85a30c8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1ggxwg9.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 8.3ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:50:38 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8c16158 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-7zasx9.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.6ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:51:51 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8b7a140 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-15gtvna.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 9.7ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:53:03 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e9283b08 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-16h6z9t.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:55:40 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8a8ff28 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-namtlf.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:55:53 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e878a6c0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-rkcvl9.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:56:04 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8550418 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1dl2slc.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 2.2ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:56:21 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000049f5840 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1g0yc21.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:59:34 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000463cb18 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-143kq27.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 1ms (Views: 0.4ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/intervals_controller.rb:25:in `calc'
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 17:59:57 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004b83d88 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-rl87l.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 4.8ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:00:34 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000047e72b0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-aiyr22.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:01:07 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000044bf8a8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-h5dcdi.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 3ms (Views: 0.4ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/intervals_controller.rb:25:in `calc'
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:02:52 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000498d1f0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-17nv9sa.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 2.5ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:03:12 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x000000000454bcb8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-rezhiw.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.0ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:03:49 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000002ddb4c0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-dwhghz.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:04:22 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e949b2b0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-1qcznka.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.6ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:04:50 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8ccd8f8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-mnknfu.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.5ms)
+
+
+Started POST "/intervals" for 127.0.0.1 at 2017-10-10 18:05:29 +0300
+Processing by IntervalsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e87e1330 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-11nl9zq.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:15:52 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004b39e68 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-mmkd36.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant LinRegressionsController::Regression):
+  
+app/controllers/lin_regressions_controller.rb:9:in `calc'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:17:19 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f71e8a2fd30 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-2630-skeakp.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NameError (uninitialized constant LinRegressionsController::Regression):
+  
+app/controllers/lin_regressions_controller.rb:9:in `calc'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:19:09 +0300
+  
+LoadError (cannot load such file -- linear-regression):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:19:54 +0300
+  
+LoadError (cannot load such file -- linear-regression):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:20:42 +0300
+  
+LoadError (cannot load such file -- linear-regression):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:21:25 +0300
+  
+LoadError (cannot load such file -- linear-regression):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:23:31 +0300
+  
+LoadError (cannot load such file -- linear-regression):
+  
+app/controllers/lin_regressions_controller.rb:2:in `<top (required)>'
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:24:08 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000002f251c8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3845-1g18za5.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 185ms (Views: 19.4ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:25:14 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f59e00aebf0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3845-e60y13.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:25:25 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000002fdc170 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-3845-17p43no.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 1.2ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:28:46 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x0000000004464e80 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-4151-jryeay.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 153ms (Views: 2.0ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:29:23 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f555c0a74c8 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-4151-1t682la.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started POST "/lin_regressions" for 127.0.0.1 at 2017-10-10 18:29:37 +0300
+Processing by LinRegressionsController#calc as */*
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00000000051488e0 @tempfile=#<Tempfile:/tmp/RackMultipart20171010-4151-e62lfa.csv>, @original_filename="test.csv", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.csv\"\r\nContent-Type: application/octet-stream\r\n">}
+Can't verify CSRF token authenticity.
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms)
+
+
